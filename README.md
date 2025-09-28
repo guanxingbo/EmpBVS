@@ -6,14 +6,14 @@ This repository contains comprehensive simulation studies comparing various vari
 
 ### Core Simulation Notebooks
 
-- **`simulation_study.ipynb`** - Main simulation study comparing multiple methods
+<!-- - **`simulation_study.ipynb`** - Main simulation study comparing multiple methods -->
 - **`simulation_study_T.ipynb`** - Student's t-distribution simulation study (50 features)
 - **`simulation_study_T_100.ipynb`** - Student's t-distribution simulation study (100 features)
 - **`simulation_study_Gau.ipynb`** - Gaussian distribution simulation study (50 features)
 - **`simulation_study_Gau_100.ipynb`** - Gaussian distribution simulation study (100 features)
 - **`simulation_study_Gamma.ipynb`** - Gamma distribution simulation study (50 features)
 - **`simulation_study_Gamma_100.ipynb`** - Gamma distribution simulation study (100 features)
-- **`simulation_study_Time.ipynb`** - Computational time comparison study
+<!-- - **`simulation_study_Time.ipynb`** - Computational time comparison study -->
 
 ### Benchmarking and Testing
 
@@ -39,7 +39,7 @@ S = 50/100         # number of true nonzero features
 BLOCK = 100        # correlation block size
 RHO = 0.8          # within-block AR(1) correlation
 SNR = 16.0         # signal-to-noise ratio
-NUM_RUNS = 20-30   # number of simulation runs
+NUM_RUNS = 50   # number of simulation runs
 ```
 
 ### Distribution Types
@@ -57,7 +57,8 @@ NUM_RUNS = 20-30   # number of simulation runs
 ### Performance Metrics
 - **True Positive Rate (TPR)**
 - **False Positive Rate (FPR)**
-- **Precision and Recall**
+<!-- - **Precision and Recall** -->
+- **F1 Score**
 - **Brier Score**
 - **Computational Time**
 
@@ -132,7 +133,7 @@ S = 50             # Number of true signals
 BLOCK = 100        # Correlation block size
 RHO = 0.8          # Within-block correlation
 SNR = 16.0         # Signal-to-noise ratio
-NUM_RUNS = 30      # Number of simulation runs
+NUM_RUNS = 50      # Number of simulation runs
 ```
 
 ### Method Configuration
@@ -144,9 +145,9 @@ NUM_RUNS = 30      # Number of simulation runs
 
 This repository includes implementations of several external methods:
 
-- **CaviaR**: Causal Variants Identification
-- **SparsePro**: Sparse projection methods
-- **Fine-mapping tools**: Various fine-mapping approaches
+<!-- - **CaviaR**: Causal Variants Identification -->
+<!-- - **SparsePro**: Sparse projection methods -->
+<!-- - **Fine-mapping tools**: Various fine-mapping approaches -->
 - **SuSiE**: Sum of Single Effects implementation
 
 ## Contributing
@@ -168,8 +169,9 @@ For questions or issues, please open an issue on GitHub.
 ## Related Work
 
 - SuSiE: [Sum of Single Effects](https://github.com/stephenslab/susieR)
-- CAVIAR: [Causal Variants Identification](https://github.com/fhormoz/caviar)
-- SparsePro: [Sparse Projection Methods](https://github.com/zhqiu/SparsePro)
+- Empirical Bayes: [Empirical Bayes](https://github.com/stephenslab/empBayes)
+<!-- - CAVIAR: [Causal Variants Identification](https://github.com/fhormoz/caviar) -->
+<!-- - SparsePro: [Sparse Projection Methods](https://github.com/zhqiu/SparsePro) -->
 
 ---
 
