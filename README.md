@@ -56,8 +56,7 @@ NUM_RUNS = 50   # number of simulation runs
 
 ### Performance Metrics
 - **True Positive Rate (TPR)**
-- **False Positive Rate (FPR)**
-<!-- - **Precision and Recall** -->
+- **False Positive Rate (FPR)**  <!-- - **Precision and Recall** -->
 - **F1 Score**
 - **Brier Score**
 - **Computational Time**
